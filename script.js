@@ -51,9 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // 登录验证通过后，使用window.location.href跳转到Main.html页面
             window.location.href = "Main.html";
             showSuccess("Login successful!");
-            // 这里可以添加更多逻辑，比如向后台发送登录成功的记录等（此处省略具体代码）
         } else {
-            // 如果验证不通过，隐藏登录成功提示（如果之前显示了的话）
+            // 如果验证不通过，隐藏登录成功提示
             hideError(loginResult);
         }
     });
