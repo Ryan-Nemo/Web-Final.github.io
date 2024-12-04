@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>City University of Macau Login</title>
 </head>
+
 <body>
     <div class="login-container">
         <img src="cityu_logo.png" alt="City University of Macau Logo" class="university-logo">
+        <div class="text-container">
+        </div>
 
-    
-        <form action="https://www.cityu.edu.mo/" method="post">
+        <form id="loginForm" action="https://www.cityu.edu.mo/" method="post">
             <label for="username">Username(Teacher No./Student No.):</label>
             <input type="text" id="username" name="username" required>
+            <span id="usernameError" style="color: red; display: none;">Username must be 6 or 12 digits.</span>
+
             <label for="password">Password(Same as URP platform):</label>
             <input type="password" id="password" name="password" required>
+            <span id="passwordError" style="color: red; display: none;">Password cannot be empty.</span>
+
             <input type="submit" value="LOGIN">
+            <!-- 添加用于显示登录结果提示的span元素 -->
+            <span id="loginResult" style="color: green; display: none;"></span>
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

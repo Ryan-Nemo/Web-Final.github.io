@@ -36,12 +36,12 @@ input[type="password"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    transition: border-color 0.3s ease; /* 修正了这里的属性写法 */
+    transition: border-color 0.3s ease; 
 }
 
 input[type="text"]:hover,
 input[type="password"]:hover {
-    border-color: #007BFF; /* 修正了这里的属性写法 */
+    border-color: #007BFF; 
 }
 
 input[type="submit"] {

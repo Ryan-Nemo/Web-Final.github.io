@@ -1,0 +1,596 @@
+<!DOCTYPE html>  
+<html lang="zh">
+    <head>
+        <title>澳門城市大學創新設計學院</title>
+        <base href="https://fiad.cityu.edu.mo/"/>
+        <link rel="stylesheet" href="template/01/css/main.css">
+        <script src="template/01/js/vendor/jquery-1.11.1.min.js"></script>
+        <script src="template/01/js/vendor/modernizr-2.6.2.min.js"></script>
+        <style type="text/css">
+            body {background-color:#FFFFFF;}
+            a{color:#000000}
+            a:hover {color:#A770B2;}
+            a:active {color:#884299;}
+            header { border-bottom-color:#935C99}
+            .dropdown-menu>li>a:hover,
+            .dropdown-menu>li>a:focus,
+            .dropdown-submenu:hover>a,
+            .dropdown-submenu:focus>a {background-color:#935C99}
+            .dropdown-menu>.active>a,
+            .dropdown-menu>.active>a:hover,
+            .dropdown-menu>.active>a:focus{background-color:#935C99}
+        </style>
+    </head>
+    <body>
+      <div class="warpper">
+        <div class="grid-container">
+          <header>
+            <div class="grid-100 grid-parent">
+              <div class="grid-40 grid-parent text-left">
+                <a href="https://fiad.cityu.edu.mo/home" class="logo" title="澳門城市大學創新設計學院">
+                  <img src="https://fiad.cityu.edu.mo/uploads/theme/041223f95fd1e40687084ff1cf010674.png" alt="澳門城市大學創新設計學院" />
+                </a>
+              </div>
+              <div class="grid-60 text-right grid-parent">
+                <ul class="header-link-left">
+                  <li><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" target="_blank">城大首頁</a></li>
+                  <li><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" target="_blank">網上報名</a></li>
+                </ul>
+                <ul class="header-link-right text-left">
+                  <li class="mail">
+                    <a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" target="_blank">
+                      <img src="template/01/img/header-email.png"> &nbsp;電子郵件
+                    </a>
+                  </li>
+                  <li class="register">
+                    <a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" target="_blank">
+                      <img src="template/01/img/header-register.png"> &nbsp;TronClass教學系統
+                    </a>
+                  </li>
+                </ul>
+                <ul class="language hidden-phone">
+                  <li>
+                    <a href="javascript:void(0)" class="dropdown">語言選擇 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://fiad.cityu.edu.mo/en">English</a></li>
+                      <li class="active"><a href="https://fiad.cityu.edu.mo/home">中文</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid-100 grid-parent text-left">
+              <div class="search-bar input-append">
+                <form id="form_search" action="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" method="get">
+                  <input id="keywords" name="keywords" value="" type="text">
+                  <button class="btn btn-style" type="submit">
+                    <img src="template/01/img/search.png">
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="grid-100 grid-parent text-center">
+              <nav>
+                <ul>
+                  <li class="active"><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">首頁</a></li>
+                  <li class=""><a href="javascript:void(0)" class="dropdown">關於我們 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">學院概況</a></li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">行政人員</a></li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">教學人員</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">全職教學人員</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">兼職教學人員</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">特聘教授</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">城市規劃與設計博士學位論文指導導師</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">城市規劃與設計碩士學位論文指導導師</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藝術學博士學位論文指導導師</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藝術學碩士學位論文指導導師</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計學博士學位論文導師</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計學碩士學位論文導師</a></li>
+                        </ul>
+                      </li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">宣傳視頻</a></li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="javascript:void(0)" class="dropdown">學院動態 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">公告</a></li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">新聞</a></li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">活動</a></li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="javascript:void(0)" class="dropdown">課程介紹 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">學士學位</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計藝術學士學位課程</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">碩士學位</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">城市規劃與設計碩士學位課程</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藝術學碩士學位課程</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計學碩士學位課程</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">博士學位</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">城市規劃與設計博士學位課程</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藝術學博士學位課程</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計學博士學位課程</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="javascript:void(0)" class="dropdown">科學研究 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">科研概況</a></li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">科研機構</a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">中國-葡萄牙文化遺產保護科學“一帶一路”聯合實驗室（籌）</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室簡介</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室建設及發展歷程</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室團隊介紹</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室設備介紹</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室管理及監測流程</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室管理制度</a></li>
+                            </ul>
+                          </li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">設計研究院</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藝術教育研究中心</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">精工實驗室</a></li>
+                        </ul>
+                      </li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">科研動態</a></li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">澳門出土克拉克瓷器</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">澳門出土的克拉克瓷</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">明代澳門陶瓷貿易路徑</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">燒制時間和地點</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">特徵（包括紋飾特徵）和分期</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">繪製手法</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">出土地點</a></li>
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">藏珍薈萃——澳門博物館成立二十週年館藏展</a></li>
+                        </ul>
+                      </li>
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">實驗室設備使用申請</a></li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="javascript:void(0)" class="dropdown">學生資訊 <i class="caret"></i></a>
+                    <ul class="dropdown-menu">
+                      <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">學生天地</a></li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">資料下載</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">研究生課程表格下載</a></li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">設計藝術學士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">畢業製作專題相關表單</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">城市規劃與設計碩士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">城市規劃與設計博士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">藝術學碩士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">藝術學博士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">設計學碩士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-submenu"><a href="javascript:void(0)" class="">設計學博士學位課程</a>
+                            <ul class="dropdown-menu">
+                              <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">課表</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu"><a href="javascript:void(0)" class="">友情連結</a>
+                        <ul class="dropdown-menu">
+                          <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">友誼校園</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class=""><a href="https://gss0.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/342ac65c10385343c14091db9613b07ecb8088b8.jpg" class="">聯絡我們</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        </div>
+      </div>
+    </body>
+    <script src="template/01/js/dropdown/dropdown.min.js"></script>
+    <script src="template/01/js/jquerymodal/jquery.modal.min.js"></script>
+    <script src="template/01/js/qrcode/jquery.qrcode-0.11.0.min.js"></script>
+    <script src="template/01/js/application.js"></script>
+    
+
+  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>自动播放的图片轮播</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 0;  
+        }  
+        .carousel {  
+            position: relative;  
+            max-width: 1000px;  
+            margin: auto;  
+            overflow: hidden;  
+        }  
+        .slides {  
+            display: flex;  
+            transition: transform 0.3s ease;  
+        }  
+        .slide {  
+            min-width: 100%;  
+            box-sizing: border-box;  
+        }  
+      
+        .arrow {  
+            position: absolute;  
+            top: 50%;  
+            transform: translateY(-50%);  
+            background-color: rgba(255, 255, 255, 0.7);  
+            border: none;  
+            cursor: pointer;  
+            padding: 10px;  
+            font-size: 24px;  
+            z-index: 10;  
+        }  
+        .arrow.left {  
+            left: 10px;  
+        }  
+        .arrow.right {  
+            right: 10px;  
+        }  
+    </style>  
+</head>  
+<div class="carousel">  
+    <div class="slides">  
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/639 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/3c63bb95aeb046e7edb4dd4601aec3ab_1120X1120.jpg" alt="图片1">  
+            </a>  
+        </div>  
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/5c204e5e9e5fb979544a0268f27cabff_1120X1120.jpg" alt="图片2">  
+            </a>  
+        </div>
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/3e6db9ea4c39373ace1877ea8dad83cd_1120X1120.jpg" alt="图片3">  
+            </a>  
+        </div>
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/1ff870e36baf280417a3f87aaf48de7d_1120X1120.jpg" alt="图片4">  
+            </a>  
+        </div>
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/8ce9264a17e057d711fe3743d53f6eb7_1120X1120.jpg" alt="图片5">  
+            </a>  
+        </div>
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/3d2c13ea5442a1ec5dd3a8afe152f7e9_1120X1120.jpg" alt="图片6">  
+            </a>  
+        </div>
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/b4b54d9b27a2c40a4178dc8570686cc6_1120X1120.jpg" alt="图片7">  
+            </a>  
+        </div>  
+        <div class="slide">  
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+                <img src="https://fiad.cityu.edu.mo/uploads_thumb/plugins/314976761c9881f057edf60e55bf9fe9_1120X1120.jpg" alt="图片8">  
+            </a>  
+        </div>  
+    </div>  
+    <button class="arrow left" onclick="previousSlide()">&#10094;</button>  
+    <button class="arrow right" onclick="nextSlide()">&#10095;</button>  
+</div>  
+
+<script>  
+    let currentIndex = 0;  
+    const totalSlides = document.querySelectorAll('.slide').length;  
+    const slides = document.querySelector('.slides');  
+
+    function showSlide(index) {  
+        if (index < 0) {  
+            currentIndex = totalSlides - 1; // Go to last slide if current is the first one  
+        } else if (index >= totalSlides) {  
+            currentIndex = 0; // Go to first slide if current is the last one  
+        } else {  
+            currentIndex = index;  
+        }  
+        slides.style.transform = 'translateX(' + (-currentIndex * 100) + '%)';  
+    }  
+
+    function nextSlide() {  
+        showSlide(currentIndex + 1);  
+        resetAutoPlay(); // Reset auto-play on manual control  
+    }  
+
+    function previousSlide() {  
+        showSlide(currentIndex - 1);  
+        resetAutoPlay(); // Reset auto-play on manual control  
+    }  
+
+    function autoPlay() {  
+        currentIndex++;  
+        showSlide(currentIndex);  
+    }  
+
+    let autoPlayInterval = setInterval(autoPlay, 3000); // Change image every 3 seconds  
+
+    function resetAutoPlay() {  
+        clearInterval(autoPlayInterval); // Clear the existing interval  
+        autoPlayInterval = setInterval(autoPlay, 3000); // Restart auto-play  
+    }  
+</script>  
+
+</body>  
+ 
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>动态                   视频</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin-left: 200px;
+            margin-right: 200px;  
+            padding: 100px;  
+            background-color: #f9f9f9;  
+        }  
+        h1 {  
+            text-align: center;  
+            margin-bottom: 20px;  
+        }  
+        .container {  
+            display: flex;  
+            flex-wrap: wrap;  
+            gap: 20px;  
+        }  
+        .section {  
+            flex: 1 1 300px; /* 设置最小宽度 */  
+            background: #fff;  
+            border: 1px solid #ddd;  
+            border-radius: 8px;  
+            padding: 10px;  
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);  
+            display: flex;  
+            flex-direction: column;  
+        }  
+        .section h2 {  
+            font-size: 20px;  
+            margin-bottom: 10px;  
+        }  
+        .item {  
+            margin-bottom: 15px;  
+            flex: 1; /* 使每个item占用剩余空间 */  
+        }  
+        .item img {  
+            width: 100%; /* 使用100%填充容器 */  
+            height: auto; /* 保持宽高比 */  
+            border-radius: 5px;  
+            max-height: 250px; /* 限制最大高度 */  
+            object-fit: cover; /* 避免图像拉伸 */  
+        }  
+        .item-title {  
+            font-weight: bold;  
+            margin-top: 5px;  
+        }  
+        .item-date {  
+            color: #888;  
+            font-size: 14px;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<h1>动态            视频</h1>  
+<div class="container">  
+    <div class="section">  
+        <h2>动态</h2>  
+        <div class="item">  
+            <div class="item-date">2024/11/22</div>
+            <a href=https://fiad.cityu.edu.mo/news/668 target="_blank">   
+            <img src=https://fiad.cityu.edu.mo/uploads/userfiles/85ce9fea91623e92c729845a4d79313c(1).jpeg alt="动态1">  
+            <div class="item-title">孔义龙教授谈器乐文化</div>  
+        </div>  
+        <div class="item">  
+            <div class="item-date">2024/11/18</div>
+            <a href=https://fiad.cityu.edu.mo/news/666 target="_blank">  
+            <img src=https://fiad.cityu.edu.mo/uploads/userfiles/%E5%9C%96%E7%89%87_20241118153655(2).jpg alt="动态2">  
+            <div class="item-title">祝賀！我院學生於2024年「創意3D物件設計比賽」喜榮多項佳奖</div>  
+        </div>  
+        <div class="item">  
+            <div class="item-date">2024/11/15</div>
+            <a href=https://fiad.cityu.edu.mo/news/665 target="_blank">   
+            <img src=https://fiad.cityu.edu.mo/uploads/userfiles/%E5%9C%96%E7%89%872(8).png alt="动态3">  
+            <div class="item-title">我院2022級設計藝術學本科生在東方設計獎中喜獲佳績</div>  
+        </div>  
+        <div class="item">  
+            <div class="item-date">2024/10/31</div>
+            <a href=https://fiad.cityu.edu.mo/news/669 target="_blank">   
+            <img src=https://fiad.cityu.edu.mo/uploads/userfiles/%E5%9C%96%E7%89%871(19).jpg alt="动态4">  
+            <div class="item-title">澳門城市大學辦史國娟畫展促文化交流</div>  
+        </div>  
+    </div>  
+
+    <div class="section">  
+        <h2>视频</h2>  
+        <div class="item">  
+            <div class="item-date">2023/11/28</div>
+            <a href=https://fiad.cityu.edu.mo/list-55/533 target="_blank"> 
+            <img src=螢幕擷取畫面 (1).png alt="视频1">  
+            <div class="item-title">澳門城市大學辦史國娟畫展促文化交流</div>  
+        </div>  
+        <div class="item">  
+            <div class="item-date">2023/11/28</div>
+            <a href=https://fiad.cityu.edu.mo/list-55/534 target="_blank">
+            <img src=https://fiad.cityu.edu.mo/list-55/534 alt="视频2">  
+            <div class="item-title">【採訪】澳門城市大學藝術學碩士畢業作品展</div>  
+        </div>  
+    </div>  
+</div>  
+
+</body>  
+</html>
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="footer-call">
+        <div class="grid-parent">
+            <div class="text-right">
+                <img src="https://ado.cityu.edu.mo/template/01/img/contact-icon.png"  width="1" height="1">
+            </div>
+            <div>
+                <p class="onep">歡迎查詢</p>
+                <p class="twop">有關澳門城市大學招生事務處事宜，可致電 28781698  </p>
+            </div>
+            <div class="text-left">
+                <a href="https://ado.cityu.edu.mo/contact" class="footer-call-btn">線上咨詢</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-msg">
+            <div class="divwid">
+                <p class="footer-title">聯絡我們</p>
+                <p>地址：澳門氹仔徐日昇寅公馬路</p>
+                <p>電話：85902333</p>
+                <p>電郵：ado@cityu.edu.mo</p>
+            </div>
+            <div class="divwid">
+                <p class="footer-title">辦公時間</p>
+                <p>周一至周五： 09:00 – 12:45, 13:45 - 18:00</p>
+                <p>周六、周日及公眾假期休息</p>
+            </div>
+            <div class="divwid">
+                <p class="footer-title">社群關注</p>
+                <ul class="footer-concern">
+                    <li class="facebook"><a href="http://www.facebook.com/	" target="_blank"><img src="https://ado.cityu.edu.mo/template/01/img/share-facebook.png">
+                    <li class="weibo"><a href="http://www.weibo.com/	" target="_blank"><img src="https://ado.cityu.edu.mo/template/01/img/share-weibo.png"></a></li>
+                    <li class="google"><a href="http://www.google.com/	" target="_blank"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADmUlEQVR4Ab1XA5AjQRQ9G6UrnV0627Zt27Zt27Zt27Z9FyeXiZN3v1NzW9vTmd3J6lW9cKbf6690EmlFIBDIQGzr9/vXE+8RjUSPTIP82Xq6pg27VvPCGoTz08KbiE5oBF3rIG6ge/PGWBhAGlpkAdEHzRCMeInzyEjqcHedj258gbgBM/KU1syjVbwo3aBHCPh+foe0YyMsw/vC0KI2dDVLQ1ejFAzNasI8tDekLWvh+/5VzYQOQGENOxfFfb9+wDplNHTVS0JXrUTUpGusk0aye0Ka4CPBi6cNFXbn2RPQ16vIi2igvn4luC6dVUuHWBOs4KCAtGtzOKICbXOnqKVjbqhW8yl2rrqwqUcb2Nctg/P4QThPHKLXy2Hq2ZYXXzgTCARUu4NLBetzZbHp61YQhI3tG8N9/zbU4L53C4bW9fF3+XwtnbH+f79nVA4Z++IBgri5fxcEbDZEh4Bk19qaEkUhPQt/W24Bxwd4z6SEdVSOCHHWcn6LCXEN0m7Fwr+ec/ZpJrznkwcpLcsEfZ3icJ4+hvgAaa9hBu5x+X9Qk4lH0H0wJ+D1xpeB28yAEZHgvZqFM+B71gZRoeoMu2ZeeuEVBhMz4OEMXEjJGfC/nxBnBnbc8CgNuBPUwKYr7pAGDFGm4GnrODOw97YQAZ1YhA9rcQa+Xy0Ij9+LcPFR5xcMXHnlFYtQbMPZEeLHTuRE+d2NcfjDeYSL3bc8goFfloDYhuwMxw+iT3CcT42Zh4uh+O5mQdY83BUGpxla8dcZQPPFEifeeY0j1CBqGTxskhPu20W3pjJhju3PjIDFHf0o9viAUbucwu73iPmXAKT7/2O0AZHw065Dxf3tBBP1j/bC1R/3oYa35s/odmQ3CVo5cRYNh1sI/9rIP8d5/X6+0k59vioLi2x+ciAWPNyEvW9PYd+701jxdAe6nx+HErubB78vtXkUqsz5FmHg2mufUtxDmrmVB5J5UGDb6yOCuFaW2NEZFRfeFXpfNjBL7Rj+DAqc+XKd0tE+bAOl9rTEuqdHQok/BpBK7VyYRz69cvgl6THu5iKU3NNck3ivixPxyvQhlPhvALmi+0NSmDfBF+eWV4fQ//JU1DnSA6X3tmQ7pTbthh4XJgRr4bXpI2QI4rTBQurKYiSeIo7Awi7sXIOJ1Oz0SvTGQthDnKWW83CisZ4ohSEsEdfKrRY3YAdIYis2v4m3iTqiW6ZO/mwNG6/yhNOEf6HhfzYhUKeuAAAAAElFTkSuQmCC></a></li>
+                    <li class="weibo"><a href="https://weixin.qq.com/" target="_blank"><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACBUlEQVR4Ae1XA4wdQBCdMkbdfbNnxri4to2gNoIi9sV2UgQ1op2zgjKsjaC2zeOcudl/1ku+5+FPlhSKftgcm8iOt7LgNIu5DDGPIfipD32v3+lvWqO11B5IzE8cajOwEWLuwpmySB7KUa5qUGvAGbwaYt56TIIeqqFaFIrkHIyEIEPJ7flQTdUmH2LzYsfC4b4SOuaB++pBzSEuK250u5p7QqgXNQYL8nxEFnyGMyUBJiWVtX6tvCYDrsVih79W7OzKOseWBTc9wje1RmuVo9wWa2sGZnpZ+kB2eOkZPCepHuCw0NPehVQPyvWEfa7eFJVpZvpb2jBAlLQcQH9rFPakT1u9icUc9RWxw38Wnl85UPPiollw2/OvbmuN1ipHuf6xgKMa4HLggvIdElRXWRuiqd7kX+069qHeBGd+dl0A/NQAd7sqAAseEguyuqwDDkW6CO3tug7wbmLh4ezwuwsG4P8ESRhNCnY43Pn/3hynGmgSOPO6E0f/+8T8xIZng2jBdEintL7MZtil1BzgsFO30w41d9hMPlhnFnfEoFRNzuD1FALdy9s5wOUYiUmlUCATNmITz9F88tnJgykSsPDaRu17yYIcvYCELK8s5mDlXh8xGp1k9Gynq1XalbTB9acsZ/BUZGIlZ/D2ypuQ2KXRgvFRWVGg9gAEF9lhv+cc327oRzlzmu/W/XR8hQAAAABJRU5ErkJggg></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            <span class="copyright">© 澳門城市大學創新設計學院</span>
+        </div>
+    </footer>
+</body>
+</html>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .footer-call{
+        margin-top: 30px;
+    }
+    .grid-parent{
+        display: flex;
+        justify-content: center;
+    }
+    .text-right{
+        margin-right: 20px;
+    }
+    .onep{
+        font-size: 20px;
+    }
+    .twop{
+        font-size: 12px;
+    }
+    .text-left{
+        margin-left: 50px;
+    }
+    .footer-call-btn {
+        display: inline-block;
+        margin-top: 10px;
+        color: #fff !important;
+        background-color: #ED1E79;
+        border-radius: 5px;
+        padding: 5px 20px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    footer {
+        padding: 20px;
+        margin: 20px -20px;
+        background-color: #2D2D2D;
+        color: #fff;
+    }
+    .footer-title {
+        font-size: 16px !important;
+        font-weight: bold;
+        display: block;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid #fff;
+    }
+    .footer-msg{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 20px;
+        margin: 0 0 20px 0;
+        border-bottom: 1px solid #fff;
+    }
+    .divwid{
+        width: 33.3%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .divwid p{
+        margin: 0 0 10px;
+        font-size: 12px;
+    }
+    .footer-concern li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .text-center{
+        text-align: center;
+        font-size: 12px;
+    }
+    .copyright{
+        color: rgba(255, 255, 255, 0.7);
+        margin-right: 20px
+    }
+    </style>
